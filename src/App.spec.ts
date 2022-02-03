@@ -11,7 +11,7 @@ describe('App', () => {
     cy.get('h1').should('have.text', 'Welcome to Your Vue.js + TypeScript App')
   })
 
-  //integration des composant
+  //integration des composants
   it('contains and renders the Hello World Component', () => {
     
     cy.get('.hello').should("be.visible");
