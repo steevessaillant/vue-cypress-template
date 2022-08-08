@@ -1,5 +1,5 @@
 import { mount } from '@cypress/vue'
-import ClickToLazyLoad from '@/components/ClickToLazyLoad.vue'
+import ClickToLazyLoad from '../../src/components/ClickToLazyLoad'
 
 describe('ClickToLazyLoad', () => {
   it('loads a component lazily when clicking a button', () => {
