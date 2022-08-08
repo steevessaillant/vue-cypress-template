@@ -24,7 +24,7 @@ Once you've got a Vue project, you'll also need to install Cypress and the Webpa
 
 ```sh
 # Vue 2
-yarn add cypress @cypress/vue @cypress/webpack-dev-server --dev
+yarn add cypress @cypress/vue2 @cypress/webpack-dev-server --dev
 
 # Vue 3
 npm install cypress @cypress/vue@next @cypress/webpack-dev-server --dev

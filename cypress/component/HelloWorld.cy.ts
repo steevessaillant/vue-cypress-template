@@ -1,4 +1,4 @@
-import { mount } from '@cypress/vue'
+import { mount } from '@cypress/vue2'
 import HelloWorld from '../../src/components/HelloWorld'
 
 describe('HelloWorld', () => {

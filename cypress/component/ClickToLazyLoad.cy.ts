@@ -1,4 +1,4 @@
-import { mount } from '@cypress/vue'
+import { mount } from '@cypress/vue2'
 import ClickToLazyLoad from '../../src/components/ClickToLazyLoad'
 
 describe('ClickToLazyLoad', () => {
